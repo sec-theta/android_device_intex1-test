@@ -9,14 +9,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, device/intex/ace/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := Intex Aqua Ace
+PRODUCT_RELEASE_NAME := Intex Aqua_Ace
 
 EXTENDED_FONT_FOOTPRINT := true
 
 PRODUCT_DEVICE := ace
 PRODUCT_NAME := cm_ace
 PRODUCT_BRAND := Intex
-PRODUCT_MODEL := Aqua Ace
+PRODUCT_MODEL := Aqua_Ace
 PRODUCT_MANUFACTURER := Intex
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
